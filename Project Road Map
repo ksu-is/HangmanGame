@@ -1,8 +1,12 @@
 *Subject to change
-1. Find and clone a good tutorial for guidance. 
-2. Get user name input as string to address them by name later in the game.
-3. define function for asking the player if they would like to play
-4. define function to run the game. 
-5. define function that generates a random word for the user to guess. 
-6. run the game function 
-7. run functon asking user if they want to play again. 
+1. Find and clone a repository for guidance. 
+2. Test repository to ensure it works.
+3. Write down suggested edits to be made for Sprint 2.
+4. Attempt to code suggested edits and evaluate code.
+5. Get user name input as string to address them by name later in the game.
+6. Define function for asking the player if they would like to play
+7. Define function that generates a random word for the user to guess. 
+8. Define function to run the game. 
+9. Define function to evaluate the guess and see if it matches any letters in the word.
+10. Give player feedback on their guess.
+11. Run functon asking user if they want to play again. 
