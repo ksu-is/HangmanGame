@@ -32,3 +32,16 @@ def play_again():
     else:
         print("invalid input")
         user_response = input("Would you like to play the game again? Enter \"y\" or \"n\" : ").lower()
+        
+# Create a function to run the game
+
+def run_game():
+    welcome()
+    alphabet = "abcdefghijklmnopqrstuvwxyz7"
+    game_word= random_word()
+    user_guesses=[]
+    user_tries = 7
+    guessed = False
+    print("")
+    print("There are", len(game_word),"letters in the word and it is a noun.")
+        
