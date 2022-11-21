@@ -19,3 +19,16 @@ def welcome():
 def random_word():
     words = ["boat","dog","house","store","snake","apple","peanut","dinner","woman","idea","product","chest","bread","wedding","oven","bath","road","wife","man","injury","bonus","phone","boyfriend","friend","boy","girl","menu","stranger","world","death","king","queen","army","actor","river","song","basket","cat","tooth","pizza","uncle","aunt","studio","client"]
     return random.choice(words).lower()
+
+# Create a function that asks the user if they would like to play again
+
+def play_again():
+    user_response = input("Would you like to play the game again? Enter \"y\" or \"n\" : ").lower()
+
+    if user_response == "y":
+        run_game()
+    elif user_response == "n":
+        print("See you next time!")
+    else:
+        print("invalid input")
+        user_response = input("Would you like to play the game again? Enter \"y\" or \"n\" : ").lower()
