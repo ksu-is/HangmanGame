@@ -45,3 +45,24 @@ def run_game():
     print("")
     print("There are", len(game_word),"letters in the word and it is a noun.")
         
+# Create a While loop to allow the user / player to keep guessing
+
+while guessed == False and user_tries > 0:
+        print("You have", str(user_tries), "tries remaining.")
+        guess = input("Guess a letter in the word, or if you feel confident, guess the whole word.\nTo view letters that you already guessed, enter \"7\":").lower()
+        if len(guess)== 1:
+            if guess == "7":
+                print(user_guesses)
+            elif guess not in alphabet:
+                print("That is an invalid input. Please enter letters only.")
+            elif guess in user_guesses:
+                print("You have already tried that letter.")
+            elif guess not in game_word:
+                print("Sorry, that letter is not in the word.")
+                user_guesses.append(guess)
+                user_tries-=1
+            elif guess in game_word:
+                print("Excellent! You correctly guessed a letter!")
+                user_guesses.append(guess)
+            else:
+                print("Invalid input. Try again.")
