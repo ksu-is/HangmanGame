@@ -1,12 +1,16 @@
 *Subject to change
-1. Find and clone a repository for guidance. 
-2. Test repository to ensure it works.
-3. Write down suggested edits to be made for Sprint 2.
-4. Attempt to code suggested edits and evaluate code.
-5. Get user name input as string to address them by name later in the game.
-6. Define function for asking the player if they would like to play
-7. Define function that generates a random word for the user to guess. 
-8. Define function to run the game. 
-9. Define function to evaluate the guess and see if it matches any letters in the word.
-10. Give player feedback on their guess.
-11. Run functon asking user if they want to play again. 
+1. Find and clone a repository for guidance. [x]
+2. Test repository to ensure it works. [x]
+3. Write down suggested edits to be made for Sprint 2. [x]
+4. Attempt to code suggested edits and evaluate code. [x]
+5. Get user name input as string to address them by name later in the game. [x]
+6. Define function for asking the player if they would like to play again. [x]
+7. Define function that generates a random word for the user to guess. [x]
+8. Define function to run the game. [x]
+9. Add while loop to give user feedback and test if user's guess matches a letter in the random word, is an invalid key, or is if that letter has already been guessed. [x]
+10. Add if/else sattement if user attempts to guess the wntire word. []
+11. Add feedback incase user attempts to guess word with wrong amount of letters. []
+12. Import ASCII art to show the hangman illustration. []
+13. Run entire code / program a minimum of 10 times to ensure it works properly. []
+14. Have a family memebr / friend play the game and get feedback from them. []
+15. Make final tweaks to project and submit final code. []
